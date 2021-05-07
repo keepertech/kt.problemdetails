@@ -1,0 +1,12 @@
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+__pycache__/
+/.coverage*
+/.tox/
+/build/
+/dist/
+/docs/build/
+/htmlcov/
+/src/kt.*.egg-info/
