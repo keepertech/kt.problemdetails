@@ -12,7 +12,11 @@ The current implementation works with the Flask_ web framework.
 Release history
 ---------------
 
-None yet.
+
+1.0.0 (2021-05-20)
+~~~~~~~~~~~~~~~~~~
+
+Initial release, internal to Keeper Technology, LLC.
 
 
 .. _Flask:
