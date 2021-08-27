@@ -12,6 +12,8 @@ The current implementation works with the Flask_ web framework.
 Release history
 ---------------
 
+#. Explicitly support Python 3.10.
+
 
 1.0.0 (2021-05-20)
 ~~~~~~~~~~~~~~~~~~
