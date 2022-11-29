@@ -8,10 +8,11 @@
 
 import os
 
+
 # -- Project information -----------------------------------------------------
 
 project = 'kt.problemdetails'
-copyright = '2021, Keeper Technology LLC'
+copyright = '2021-22, Keeper Technology LLC'
 author = 'Keeper Technology'
 
 # The full version, including alpha/beta/rc tags
