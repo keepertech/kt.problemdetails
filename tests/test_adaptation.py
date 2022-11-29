@@ -1,10 +1,3 @@
-# (c) 2021.  Keeper Technology LLC.  All Rights Reserved.
-# Use is subject to license.  Reproduction and distribution is strictly
-# prohibited.
-#
-# Subject to the following third party software licenses and terms and
-# conditions (including open source):  www.keepertech.com/thirdpartylicenses
-
 """\
 Tests for kt.problemdetails use of adaptation.
 
@@ -95,7 +88,7 @@ class AdaptationTestCase(unittest.TestCase):
             extensions=dict(status='foo!'))
 
         with self.assertLogs('kt.problemdetails', logging.WARNING) as cm:
-            data = kt.problemdetails.api.as_dict(error)
+            kt.problemdetails.api.as_dict(error)
 
         rec, = cm.records
         self.assertEqual(rec.levelno, logging.WARNING)
