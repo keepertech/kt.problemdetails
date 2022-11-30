@@ -12,9 +12,9 @@ The current implementation works with the Flask_ web framework.
 Release history
 ---------------
 
-#. Explicitly support Python 3.10.
+* Explicitly support Python 3.10.
 
-#. Update to BSD 3-clause license to open-source the library.
+* Update to BSD 3-clause license to open-source the library.
 
 
 1.0.0 (2021-05-20)
